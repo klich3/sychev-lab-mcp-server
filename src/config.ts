@@ -12,7 +12,7 @@ export interface ServerConfig {
 export const config: ServerConfig = {
     baseUrl: process.env.SYCHEV_LAB_URL || 'https://lab.sychev.xyz',
     name: 'sychev-lab-mcp',
-    version: '1.0.3',
+    version: '1.0.4',
 };
 
 // Validate configuration
